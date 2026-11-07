@@ -1,20 +1,46 @@
-# ibukun
-Project Description
+# FORMA Studio — Thoughtful Spaces
 
-FORMA Studio is an interior design website created to showcase interior design projects and communicate the studio's services and brand identity. The website contains four pages: Home, Work, Studio, and Contact.
+A responsive multi-page website concept for **FORMA Studio**, a fictional interior design practice based in Lagos. Created as a front-end project using HTML, CSS and vanilla JavaScript.
 
-Technologies Used
+## Pages
+- **Home (`index.html`)** — Studio introduction, selected work and calls to action.
+- **Our Work (`work.html`)** — Portfolio gallery of concept projects.
+- **Studio (`studio.html`)** — Design philosophy and services.
+- **Contact (`contact.html`)** — Sample studio details and enquiry form.
 
-HTML5: Used to structure the webpages and display project information and images.
+## Features
+- Responsive mobile navigation.
+- Layouts built with CSS Grid and Flexbox.
+- Media queries for mobile/tablet screens.
+- Client-side contact form validation.
+- Automatically updated footer year.
+- External CSS (`css/style.css`) and JS (`js/script.js`).
 
-CSS3: Used to create the minimalist design, typography, colors, and visual styling.
+## Project structure
+```text
+forma-studio/
+├── index.html
+├── work.html
+├── studio.html
+├── contact.html
+├── README.md
+├── css/style.css
+└── js/script.js
+```
 
-JavaScript: Used to implement mobile navigation and contact form validation.
+## Run locally
+1. Clone or download the repository.
+2. Open the folder in VS Code.
+3. Use Live Server on `index.html` (recommended), or open it in a browser.
 
-CSS Grid and Flexbox: Used to organize project galleries and page layouts.
+## Important
+- FORMA Studio and the portfolio projects are fictional concept content.
+- Update project descriptions, images, contact email and studio details to match the real client.
+- The enquiry form validates in the browser only; it does not send emails. Connect a form service or backend to receive submissions.
+- Images are sourced from Unsplash and require an internet connection.
 
-Media Queries: Used to make the website responsive.
+## Built with
+HTML5 · CSS3 (Grid, Flexbox, responsive media queries) · Vanilla JavaScript
 
-Implementation
-
-The website was developed using separate HTML pages connected through navigation links. A common stylesheet was used to maintain consistency across the pages. Project images were arranged in responsive gallery layouts using CSS Grid and Flexbox. JavaScript was used to add interactive features and validate contact form entries.
+## License
+Educational/demo starter. Confirm image licensing and replace placeholders before commercial use.
